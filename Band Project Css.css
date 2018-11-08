@@ -1,0 +1,121 @@
+body {
+    background-image: url("https://images.unsplash.com/22/brick-wall.JPG?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb2136578e7b3ac04b6adec1d69cfe78&w=1000&q=80")
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+	font-family: cursive
+}
+
+h2 {
+	font-family: cursive
+}
+
+h1, h2, p, li {
+	color: white;
+}
+
+table, th, td {
+	border: 15px solid black;
+	font-size: 50px;
+	color: white;
+}
+
+
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+	font-family: bold;
+}
+
+th{
+	font: Bookman Header;
+}
+
+a{
+	font-size: 30px;
+}
+
+.tabletext{
+color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+@media screen and (min-width: 600px) {
+  .Album Details {
+    float: right;
+    width: 25%;
+  }
+}
+
+.Song List {
+font-size: 30px;
+}
+
+.flexcontainer {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 320px) {
+  .flexcontainer {
+    display: block;
+  }
+}
+
+h2{
+font-size: 50px
+}
+
+.center {
+	text-align: center;
+}
+
+#intropara {
+	font-size: 30px
+}
+
+.list{
+	font-size: 20px
+}
+
+.centerimg {
+ text-align:middle;
+display:block;
+	width: 25%;
+	height: 25%
+}
+    
+}
+
+#Page2Title {
+	font-size: 100px;
+	text-align: center;
+}
+
+.white{
+	color: rgb(255,255,255);
+}
